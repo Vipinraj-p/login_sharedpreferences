@@ -5,14 +5,14 @@ import 'package:login_sharedpreferences/login_page.dart';
 import 'package:login_sharedpreferences/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class SpalashScreen extends StatefulWidget {
-  const SpalashScreen({super.key});
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
 
   @override
-  State<SpalashScreen> createState() => _SpalashScreenState();
+  State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SpalashScreenState extends State<SpalashScreen>
+class _SplashScreenState extends State<SplashScreen>
     with SingleTickerProviderStateMixin {
   @override
   void initState() {

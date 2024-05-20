@@ -6,5 +6,5 @@ const USER_NAME = 'UserName';
 const PASSWORD = 'Password';
 void main() {
   runApp(const MaterialApp(
-      debugShowCheckedModeBanner: false, home: SpalashScreen()));
+      debugShowCheckedModeBanner: false, home: SplashScreen()));
 }
